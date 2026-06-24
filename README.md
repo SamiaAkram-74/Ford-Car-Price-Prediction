@@ -88,3 +88,40 @@ A user-friendly web application was built where users can:
 ---
 
 ## 📷 Project Workflow
+Data Collection → Data Cleaning → EDA → Feature Engineering → Model Training → Evaluation → Deployment
+
+
+---
+
+## 💡 Key Insights
+
+- Newer cars have higher prices  
+- Mileage negatively impacts price  
+- Engine size positively affects price  
+- Model type strongly influences price  
+
+---
+
+Install Dependencies
+pip install -r requirements.txt
+
+Run Streamlit App
+streamlit run app.py
+
+📌 Files in This Repository
+app.py                  → Streamlit web app  
+ford_price_model.pkl    → Trained ML model  
+model_features.pkl            → Feature columns  
+ford.csv                → Dataset  
+requirements.txt        → Dependencies  
+
+🎯 Future Improvements
+Try XGBoost / LightGBM
+Improve feature engineering
+Deploy on cloud (AWS / Render / HuggingFace)
+Add API using Flask/FastAPI
+
+👨‍💻 Author
+
+Samia Akram
+Aspiring Data Scientist & Machine Learning Engineer
